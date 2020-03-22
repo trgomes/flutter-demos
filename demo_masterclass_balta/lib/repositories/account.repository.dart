@@ -8,9 +8,10 @@ class AccoutRepository {
 
     return new UserModel(
       id: "1",
-      email: "Thiago Gomes",
+      name: "Thiago Gomes",
+      email: "thiago@mail.com",
       picture: "https://picsum.photos/200/200",
-      role: "",
+      role: "student",
       token: "xpto",
     );
   }
